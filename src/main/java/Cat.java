@@ -1,3 +1,7 @@
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Scope;
+
+@Scope("prototype")
 public class Cat {
 
 }
